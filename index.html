@@ -95,7 +95,7 @@
             const hours = Math.floor(difference / (1000 * 60 * 60));
             const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-            const milliseconds = Math.floor((difference % 1000) / 10); // Get two-digit milliseconds
+            const milliseconds = Math.floor((difference % 1000) / 10); 
 
             timeDisplay.textContent = 
                 (hours < 10 ? '0' : '') + hours + ':' +
